@@ -31,73 +31,73 @@ The following description is taken from the original database repository:
 As part of this project, average values (arithmetic means) were calculated for each group of measurements performed on each subject for each activity.
 Consequently, the following variables are stored in the output file:
    
-| No | Variable name               | Description                                                             |
-|----|:----------------------------|:------------------------------------------------------------------------|
-| 1  |        subject              | Identifier of the subject who performed the activity (1 to 30)          |
-| 2  |       activity              | Activity while wearing a smartphone (string)                            |
-| 3  |    tBodyAcc-mean()-X        | Mean of mean body acceleration signals (time domain, X-axis)            |
-| 4  |    tBodyAcc-mean()-Y        | Mean of mean body acceleration signals (time domain, Y-axis)            |
-| 5  |    tBodyAcc-mean()-Z        | Mean of mean body acceleration signals (time domain, Z-axis)            |
-| 6  |     tBodyAcc-std()-X        | Mean std. dev. of body acceleration signals (time domain, X-axis)       |
-| 7  |     tBodyAcc-std()-Y        | Mean std. dev. of body acceleration signals (time domain, Y-axis)       |
-| 8  |     tBodyAcc-std()-Z        | Mean std. dev. of body acceleration signals (time domain, Z-axis)       |
-| 9  |   tGravityAcc-mean()-X      | Mean of mean gravity acceleration signals (time domain, X-axis)         |
-| 10 |   tGravityAcc-mean()-Y      | Mean of mean gravity acceleration signals (time domain, Y-axis)         |
-| 11 |   tGravityAcc-mean()-Z      | Mean of mean gravity acceleration signals (time domain, Z-axis)         |
-| 12 |    tGravityAcc-std()-X      | Mean std. dev. of gravity acceleration signals (time domain, X-axis)    |
-| 13 |    tGravityAcc-std()-Y      | Mean std. dev. of gravity acceleration signals (time domain, Y-axis)    |
-| 14 |    tGravityAcc-std()-Z      | Mean std. dev. of gravity acceleration signals (time domain, Z-axis)    |
-| 15 |  tBodyAccJerk-mean()-X      | Mean of mean body linear acc. (Jerk) signals (time domain, X-axis)      |
-| 16 |  tBodyAccJerk-mean()-Y      | Mean of mean body linear acc. (Jerk) signals (time domain, Y-axis)      |
-| 17 |  tBodyAccJerk-mean()-Z      | Mean of mean body linear acc. (Jerk) signals (time domain, Z-axis)      |
-| 18 |   tBodyAccJerk-std()-X      | Mean std. dev. of body linear acc. (Jerk) signals (time domain, X-axis) |
-| 19 |   tBodyAccJerk-std()-Y      | Mean std. dev. of body linear acc. (Jerk) signals (time domain, Y-axis) |
-| 20 |   tBodyAccJerk-std()-Z      | Mean std. dev. of body linear acc. (Jerk) signals (time domain, Z-axis) |
-| 21 |   tBodyGyro-mean()-X        | Mean of mean body gyroscope signals (time domain, X-axis)               |
-| 22 |   tBodyGyro-mean()-Y        | Mean of mean body gyroscope signals (time domain, Y-axis)               |
-| 23 |   tBodyGyro-mean()-Z        | Mean of mean body gyroscope signals (time domain, Z-axis)               |
-| 24 |    tBodyGyro-std()-X        | Mean std. dev. of body gyroscope signals (time domain, X-axis)          |
-| 25 |    tBodyGyro-std()-Y        | Mean std. dev. of body gyroscope signals (time domain, Y-axis)          |
-| 26 |    tBodyGyro-std()-Z        | Mean std. dev. of body gyroscope signals (time domain, Z-axis)          |
-| 27 | tBodyGyroJerk-mean()-X      | Mean of mean body angular velocity signals (time domain, X-axis)        |
-| 28 | tBodyGyroJerk-mean()-Y      | Mean of mean body angular velocity signals (time domain, Y-axis)        |
-| 29 | tBodyGyroJerk-mean()-Z      | Mean of mean body angular velocity signals (time domain, Z-axis)        |
-| 30 |  tBodyGyroJerk-std()-X      | Mean std. dev. of body angular velocity signals (time domain, X-axis)   |
-| 31 |  tBodyGyroJerk-std()-Y      | Mean std. dev. of body angular velocity signals (time domain, Y-axis)   |
-| 32 |  tBodyGyroJerk-std()-Z      | Mean std. dev. of body angular velocity signals (time domain, Z-axis)   |
-| 33 |   tBodyAccMag-mean()        | Mean of mean magnitudes of body acceleration signals (time domain)      |
-| 34 |    tBodyAccMag-std()        | Mean std. dev. of magnitudes of body acceleration signals (time domain) |
-| 35 |  tGravityAccMag-mean()      | Mean of mean magnitudes of gravity acceleration signals (time domain)   |
-| 36 |   tGravityAccMag-std()      | Mean std. dev. of magnitudes of gravity acc. signals (time domain)      |
-| 37 | tBodyAccJerkMag-mean()      | Mean of mean magnitudes of body lin. acc. (Jerk) signals (time domain)  |
-| 38 |  tBodyAccJerkMag-std()      | Mean std. dev. of magnitudes of body linear acc. signals (time domain)  |
-| 39 |  tBodyGyroMag-mean()        | Mean of mean magnitudes of body gyroscope signals (time domain)         |
-| 40 |   tBodyGyroMag-std()        | Mean std. dev. of magnitudes of body gyroscope signals (time domain)    |
-| 41 |  tBodyGyroJerkMag-mean()    | Mean of mean magnitudes of body angular velocity signals (time domain)  |
-| 42 | tBodyGyroJerkMag-std()      | Mean std. dev. of magnitudes of body ang. veloc. signals (time domain)  |
-| 43 |    fBodyAcc-mean()-X        | Mean of mean body acceleration signals (frequency domain, X-axis)       |
-| 44 |    fBodyAcc-mean()-Y        | Mean of mean body acceleration signals (frequency domain, Y-axis)       |
-| 45 |    fBodyAcc-mean()-Z        | Mean of mean body acceleration signals (frequency domain, Z-axis)       |
-| 46 |   fBodyAcc-std()-X          | Mean std. dev. of body acceleration signals (frequency domain, X-axis)  |
-| 47 |   fBodyAcc-std()-Y          | Mean std. dev. of body acceleration signals (frequency domain, Y-axis)  |
-| 48 |   fBodyAcc-std()-Z          | Mean std. dev. of body acceleration signals (frequency domain, Z-axis)  |
-| 49 |  fBodyAccJerk-mean()-X      | Mean of mean body linear acc. (Jerk) signals (frequency domain, X-axis) |
-| 50 |  fBodyAccJerk-mean()-Y      | Mean of mean body linear acc. (Jerk) signals (frequency domain, Y-axis) |
-| 51 |  fBodyAccJerk-mean()-Z      | Mean of mean body linear acc. (Jerk) signals (frequency domain, Z-axis) |
-| 52 |   fBodyAccJerk-std()-X      | Mean std. dev. of body linear acc. (Jerk) signals (freq.domain, X-axis) |
-| 53 |   fBodyAccJerk-std()-Y      | Mean std. dev. of body linear acc. (Jerk) signals (freq.domain, Y-axis) |
-| 54 |   fBodyAccJerk-std()-Z      | Mean std. dev. of body linear acc. (Jerk) signals (freq.domain, Z-axis) |
-| 55 |   fBodyGyro-mean()-X        | Mean of mean body gyroscope signals (frequency domain, X-axis)          |
-| 56 |   fBodyGyro-mean()-Y        | Mean of mean body gyroscope signals (frequency domain, Y-axis)          |
-| 57 |   fBodyGyro-mean()-Z        | Mean of mean body gyroscope signals (frequency domain, Z-axis)          |
-| 58 |    fBodyGyro-std()-X        | Mean std. dev. of body gyroscope signals (frequency domain, X-axis)     |
-| 59 |    fBodyGyro-std()-Y        | Mean std. dev. of body gyroscope signals (frequency domain, Y-axis)     |
-| 60 |    fBodyGyro-std()-Z        | Mean std. dev. of body gyroscope signals (frequency domain, Z-axis)     |
-| 61 |   fBodyAccMag-mean()        | Mean of mean magnitudes of body acceleration signals (freq. domain)     |
-| 62 |    fBodyAccMag-std()        | Mean std. dev. of magnitudes of body acc. signals (frequency domain)    |
-| 63 | fBodyBodyAccJerkMag-mean()  | Mean of mean magnitudes of body lin. acc. (Jerk) signals (freq.domain)  |
-| 64 | fBodyBodyAccJerkMag-std()   | Mean std. dev. of magnitudes of body lin. acc. signals (freq. domain)   |
-| 65 |  fBodyBodyGyroMag-mean()    | Mean of mean magnitudes of body gyroscope signals (frequency domain)    |
-| 66 | fBodyBodyGyroMag-std()      | Mean std. dev. of magnitudes of body gyroscope signals (freq. domain)   |
-| 67 | fBodyBodyGyroJerkMag-mean() | Mean of mean magnitudes of body angular velocity signals (freq.domain)  |
-| 68 | fBodyBodyGyroJerkMag-std()  | Mean std. dev. of magnitudes of body ang. veloc. signals (freq.domain)  |
+| No | Variable name               | Type                   | Description                                                             |
+|----|:----------------------------|:-----------------------|:------------------------------------------------------------------------|
+| 1  |        subject              | numeric (integer)      | Identifier of the subject who performed the activity (1 to 30)          |
+| 2  |       activity              | categorical (char.)    | Activity while wearing a smartphone (string)                            |
+| 3  |    tBodyAcc-mean()-X        | numeric (float)        | Mean of mean body acceleration signals (time domain, X-axis)            |
+| 4  |    tBodyAcc-mean()-Y        | numeric (float)        | Mean of mean body acceleration signals (time domain, Y-axis)            |
+| 5  |    tBodyAcc-mean()-Z        | numeric (float)        | Mean of mean body acceleration signals (time domain, Z-axis)            |
+| 6  |     tBodyAcc-std()-X        | numeric (float)        | Mean std. dev. of body acceleration signals (time domain, X-axis)       |
+| 7  |     tBodyAcc-std()-Y        | numeric (float)        | Mean std. dev. of body acceleration signals (time domain, Y-axis)       |
+| 8  |     tBodyAcc-std()-Z        | numeric (float)        | Mean std. dev. of body acceleration signals (time domain, Z-axis)       |
+| 9  |   tGravityAcc-mean()-X      | numeric (float)        | Mean of mean gravity acceleration signals (time domain, X-axis)         |
+| 10 |   tGravityAcc-mean()-Y      | numeric (float)        | Mean of mean gravity acceleration signals (time domain, Y-axis)         |
+| 11 |   tGravityAcc-mean()-Z      | numeric (float)        | Mean of mean gravity acceleration signals (time domain, Z-axis)         |
+| 12 |    tGravityAcc-std()-X      | numeric (float)        | Mean std. dev. of gravity acceleration signals (time domain, X-axis)    |
+| 13 |    tGravityAcc-std()-Y      | numeric (float)        | Mean std. dev. of gravity acceleration signals (time domain, Y-axis)    |
+| 14 |    tGravityAcc-std()-Z      | numeric (float)        | Mean std. dev. of gravity acceleration signals (time domain, Z-axis)    |
+| 15 |  tBodyAccJerk-mean()-X      | numeric (float)        | Mean of mean body linear acc. (Jerk) signals (time domain, X-axis)      |
+| 16 |  tBodyAccJerk-mean()-Y      | numeric (float)        | Mean of mean body linear acc. (Jerk) signals (time domain, Y-axis)      |
+| 17 |  tBodyAccJerk-mean()-Z      | numeric (float)        | Mean of mean body linear acc. (Jerk) signals (time domain, Z-axis)      |
+| 18 |   tBodyAccJerk-std()-X      | numeric (float)        | Mean std. dev. of body linear acc. (Jerk) signals (time domain, X-axis) |
+| 19 |   tBodyAccJerk-std()-Y      | numeric (float)        | Mean std. dev. of body linear acc. (Jerk) signals (time domain, Y-axis) |
+| 20 |   tBodyAccJerk-std()-Z      | numeric (float)        | Mean std. dev. of body linear acc. (Jerk) signals (time domain, Z-axis) |
+| 21 |   tBodyGyro-mean()-X        | numeric (float)        | Mean of mean body gyroscope signals (time domain, X-axis)               |
+| 22 |   tBodyGyro-mean()-Y        | numeric (float)        | Mean of mean body gyroscope signals (time domain, Y-axis)               |
+| 23 |   tBodyGyro-mean()-Z        | numeric (float)        | Mean of mean body gyroscope signals (time domain, Z-axis)               |
+| 24 |    tBodyGyro-std()-X        | numeric (float)        | Mean std. dev. of body gyroscope signals (time domain, X-axis)          |
+| 25 |    tBodyGyro-std()-Y        | numeric (float)        | Mean std. dev. of body gyroscope signals (time domain, Y-axis)          |
+| 26 |    tBodyGyro-std()-Z        | numeric (float)        | Mean std. dev. of body gyroscope signals (time domain, Z-axis)          |
+| 27 | tBodyGyroJerk-mean()-X      | numeric (float)        | Mean of mean body angular velocity signals (time domain, X-axis)        |
+| 28 | tBodyGyroJerk-mean()-Y      | numeric (float)        | Mean of mean body angular velocity signals (time domain, Y-axis)        |
+| 29 | tBodyGyroJerk-mean()-Z      | numeric (float)        | Mean of mean body angular velocity signals (time domain, Z-axis)        |
+| 30 |  tBodyGyroJerk-std()-X      | numeric (float)        | Mean std. dev. of body angular velocity signals (time domain, X-axis)   |
+| 31 |  tBodyGyroJerk-std()-Y      | numeric (float)        | Mean std. dev. of body angular velocity signals (time domain, Y-axis)   |
+| 32 |  tBodyGyroJerk-std()-Z      | numeric (float)        | Mean std. dev. of body angular velocity signals (time domain, Z-axis)   |
+| 33 |   tBodyAccMag-mean()        | numeric (float)        | Mean of mean magnitudes of body acceleration signals (time domain)      |
+| 34 |    tBodyAccMag-std()        | numeric (float)        | Mean std. dev. of magnitudes of body acceleration signals (time domain) |
+| 35 |  tGravityAccMag-mean()      | numeric (float)        | Mean of mean magnitudes of gravity acceleration signals (time domain)   |
+| 36 |   tGravityAccMag-std()      | numeric (float)        | Mean std. dev. of magnitudes of gravity acc. signals (time domain)      |
+| 37 | tBodyAccJerkMag-mean()      | numeric (float)        | Mean of mean magnitudes of body lin. acc. (Jerk) signals (time domain)  |
+| 38 |  tBodyAccJerkMag-std()      | numeric (float)        | Mean std. dev. of magnitudes of body linear acc. signals (time domain)  |
+| 39 |  tBodyGyroMag-mean()        | numeric (float)        | Mean of mean magnitudes of body gyroscope signals (time domain)         |
+| 40 |   tBodyGyroMag-std()        | numeric (float)        | Mean std. dev. of magnitudes of body gyroscope signals (time domain)    |
+| 41 |  tBodyGyroJerkMag-mean()    | numeric (float)        | Mean of mean magnitudes of body angular velocity signals (time domain)  |
+| 42 | tBodyGyroJerkMag-std()      | numeric (float)        | Mean std. dev. of magnitudes of body ang. veloc. signals (time domain)  |
+| 43 |    fBodyAcc-mean()-X        | numeric (float)        | Mean of mean body acceleration signals (frequency domain, X-axis)       |
+| 44 |    fBodyAcc-mean()-Y        | numeric (float)        | Mean of mean body acceleration signals (frequency domain, Y-axis)       |
+| 45 |    fBodyAcc-mean()-Z        | numeric (float)        | Mean of mean body acceleration signals (frequency domain, Z-axis)       |
+| 46 |   fBodyAcc-std()-X          | numeric (float)        | Mean std. dev. of body acceleration signals (frequency domain, X-axis)  |
+| 47 |   fBodyAcc-std()-Y          | numeric (float)        | Mean std. dev. of body acceleration signals (frequency domain, Y-axis)  |
+| 48 |   fBodyAcc-std()-Z          | numeric (float)        | Mean std. dev. of body acceleration signals (frequency domain, Z-axis)  |
+| 49 |  fBodyAccJerk-mean()-X      | numeric (float)        | Mean of mean body linear acc. (Jerk) signals (frequency domain, X-axis) |
+| 50 |  fBodyAccJerk-mean()-Y      | numeric (float)        | Mean of mean body linear acc. (Jerk) signals (frequency domain, Y-axis) |
+| 51 |  fBodyAccJerk-mean()-Z      | numeric (float)        | Mean of mean body linear acc. (Jerk) signals (frequency domain, Z-axis) |
+| 52 |   fBodyAccJerk-std()-X      | numeric (float)        | Mean std. dev. of body linear acc. (Jerk) signals (freq.domain, X-axis) |
+| 53 |   fBodyAccJerk-std()-Y      | numeric (float)        | Mean std. dev. of body linear acc. (Jerk) signals (freq.domain, Y-axis) |
+| 54 |   fBodyAccJerk-std()-Z      | numeric (float)        | Mean std. dev. of body linear acc. (Jerk) signals (freq.domain, Z-axis) |
+| 55 |   fBodyGyro-mean()-X        | numeric (float)        | Mean of mean body gyroscope signals (frequency domain, X-axis)          |
+| 56 |   fBodyGyro-mean()-Y        | numeric (float)        | Mean of mean body gyroscope signals (frequency domain, Y-axis)          |
+| 57 |   fBodyGyro-mean()-Z        | numeric (float)        | Mean of mean body gyroscope signals (frequency domain, Z-axis)          |
+| 58 |    fBodyGyro-std()-X        | numeric (float)        | Mean std. dev. of body gyroscope signals (frequency domain, X-axis)     |
+| 59 |    fBodyGyro-std()-Y        | numeric (float)        | Mean std. dev. of body gyroscope signals (frequency domain, Y-axis)     |
+| 60 |    fBodyGyro-std()-Z        | numeric (float)        | Mean std. dev. of body gyroscope signals (frequency domain, Z-axis)     |
+| 61 |   fBodyAccMag-mean()        | numeric (float)        | Mean of mean magnitudes of body acceleration signals (frequency domain) |
+| 62 |    fBodyAccMag-std()        | numeric (float)        | Mean std. dev. of magnitudes of body acc. signals (frequency domain)    |
+| 63 | fBodyBodyAccJerkMag-mean()  | numeric (float)        | Mean of mean magnitudes of body lin. acc. (Jerk) signals (freq.domain)  |
+| 64 | fBodyBodyAccJerkMag-std()   | numeric (float)        | Mean std. dev. of magnitudes of body lin. acc. signals (freq. domain)   |
+| 65 |  fBodyBodyGyroMag-mean()    | numeric (float)        | Mean of mean magnitudes of body gyroscope signals (frequency domain)    |
+| 66 | fBodyBodyGyroMag-std()      | numeric (float)        | Mean std. dev. of magnitudes of body gyroscope signals (freq. domain)   |
+| 67 | fBodyBodyGyroJerkMag-mean() | numeric (float)        | Mean of mean magnitudes of body angular velocity signals (freq.domain)  |
+| 68 | fBodyBodyGyroJerkMag-std()  | numeric (float)        | Mean std. dev. of magnitudes of body ang. veloc. signals (freq.domain)  |
