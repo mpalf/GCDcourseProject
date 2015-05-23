@@ -93,7 +93,7 @@ Consequently, the following variables are stored in the output file:
 | 58 |    fBodyGyro-std()-X        | Mean std. dev. of body gyroscope signals (frequency domain, X-axis)     |
 | 59 |    fBodyGyro-std()-Y        | Mean std. dev. of body gyroscope signals (frequency domain, Y-axis)     |
 | 60 |    fBodyGyro-std()-Z        | Mean std. dev. of body gyroscope signals (frequency domain, Z-axis)     |
-| 61 |   fBodyAccMag-mean()        | Mean of mean magnitudes of body acceleration signals (frequency domain) |
+| 61 |   fBodyAccMag-mean()        | Mean of mean magnitudes of body acceleration signals (freq. domain)     |
 | 62 |    fBodyAccMag-std()        | Mean std. dev. of magnitudes of body acc. signals (frequency domain)    |
 | 63 | fBodyBodyAccJerkMag-mean()  | Mean of mean magnitudes of body lin. acc. (Jerk) signals (freq.domain)  |
 | 64 | fBodyBodyAccJerkMag-std()   | Mean std. dev. of magnitudes of body lin. acc. signals (freq. domain)   |
