@@ -26,8 +26,8 @@
 
 library(plyr)
 
-# let's assume that the current working directory is set to folder containing the 
-# extracted data from:
+# let's assume that the current working directory is set to the parent folder
+# ("UCI HAR Dataset") extracted from the archive:
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 # read activity labels from "activity_labels.txt"
